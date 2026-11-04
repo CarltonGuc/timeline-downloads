@@ -2,6 +2,33 @@
   "product": "SFX 7",
   "releases": [
     {
+      "version": "7.0.4",
+      "date": "2026-11-04",
+      "summary": "Drop effects and files below End of List, Fades and Stops that find their cue, and fixes for dragging from the Finder and for starting the engine.",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Effects from the Effect List, and audio and video files, can be dropped in the empty space below End of List: they go just above End of List."
+        },
+        {
+          "type": "improved",
+          "text": "A Fade or Stop dropped in with no cue selected to act on targets the nearest Audio, Video or Live Audio cue above where it lands."
+        },
+        {
+          "type": "fixed",
+          "text": "Windows: the engine failed to start (\"Engine Failed\", \"did not accept connections within 10s\") when the Windows user name has letters like é, as in José."
+        },
+        {
+          "type": "fixed",
+          "text": "Mac: audio and video files dragged in from the Finder now drop into the cue list (they were ignored)."
+        },
+        {
+          "type": "fixed",
+          "text": "Mac: dragging a file from the Finder over the cue list could close SFX 7."
+        }
+      ]
+    },
+    {
       "version": "7.0.3",
       "date": "2026-11-04",
       "summary": "SFX 7 asks for a license as it opens, GO! with the standby cue's notes beside it, and clearer quit questions.",
