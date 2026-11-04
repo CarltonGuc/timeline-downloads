@@ -2,14 +2,73 @@
   "product": "SFX 7",
   "releases": [
     {
+      "version": "7.0.3",
+      "date": "2026-11-04",
+      "summary": "SFX 7 asks for a license as it opens, GO! with the standby cue's notes beside it, and clearer quit questions.",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "With no license that runs on this computer (none yet, or a trial or rental that has ended), the License window opens as SFX 7 starts. Activate a key, start a free trial or add weeks there and SFX 7 opens; otherwise Quit SFX 7 closes it."
+        },
+        {
+          "type": "improved",
+          "text": "A trial or rental that ends while SFX 7 is open never stops the show: it keeps running until you quit."
+        },
+        {
+          "type": "improved",
+          "text": "GO is now GO!, and the standby cue's notes sit in a shaded box beside it."
+        },
+        {
+          "type": "improved",
+          "text": "A cue's Notes (Properties) take several lines, three in view."
+        },
+        {
+          "type": "improved",
+          "text": "Join codes and license keys are typed in capitals, with their dashes put in."
+        },
+        {
+          "type": "improved",
+          "text": "Quitting asks with stacked buttons: Save, Don't Save or Cancel, then Stop the Engine and Quit (press Enter), Keep the Engine Running and Quit, or Cancel."
+        },
+        {
+          "type": "improved",
+          "text": "Play mode also hides Network, Diagnostics, and File > License and License Agreement."
+        },
+        {
+          "type": "fixed",
+          "text": "The Play buttons and the Master Transport no longer play cues without a license."
+        },
+        {
+          "type": "fixed",
+          "text": "Closing a panel's own window could make SFX 7 report an error later, for example when clicking into a cue's Name."
+        },
+        {
+          "type": "fixed",
+          "text": "Windows: File > About shows the right version number (it said 1.0.0.1)."
+        }
+      ]
+    },
+    {
       "version": "7.0.2",
       "date": "2026-11-03",
       "summary": "A larger, sharper look on the Mac, and a fix for the Master Transport.",
       "changes": [
-        { "type": "fixed", "text": "Clicking around in a playing cue's waveform in the Master Transport no longer drops the cue from the transport and the cue list's playing indicator while it keeps playing." },
-        { "type": "improved", "text": "Mac: SFX 7 is drawn at the Mac's own size, so text and controls are about 30% larger, as in other Mac apps." },
-        { "type": "new", "text": "Mac: SFX 7 > Settings... (Command-comma) opens Preferences." },
-        { "type": "fixed", "text": "Mac: Media, Remote, History, Network, Preferences and Diagnostics no longer show a back arrow that led to a list with no way back to the show." }
+        {
+          "type": "fixed",
+          "text": "Clicking around in a playing cue's waveform in the Master Transport no longer drops the cue from the transport and the cue list's playing indicator while it keeps playing."
+        },
+        {
+          "type": "improved",
+          "text": "Mac: SFX 7 is drawn at the Mac's own size, so text and controls are about 30% larger, as in other Mac apps."
+        },
+        {
+          "type": "new",
+          "text": "Mac: SFX 7 > Settings... (Command-comma) opens Preferences."
+        },
+        {
+          "type": "fixed",
+          "text": "Mac: Media, Remote, History, Network, Preferences and Diagnostics no longer show a back arrow that led to a list with no way back to the show."
+        }
       ]
     },
     {
@@ -17,12 +76,30 @@
       "date": "2026-11-03",
       "summary": "The license agreement, a clearer way to quit, and fixes for the Mac.",
       "changes": [
-        { "type": "new", "text": "The license agreement is shown the first time SFX 7 opens (and on the Windows installer's license page), and any time in File > License Agreement." },
-        { "type": "improved", "text": "Quitting asks whether to save the show first, then whether to stop the show engine." },
-        { "type": "improved", "text": "The main window opens on most of the screen the first time and remembers where it was. In a narrow window, the side panels move under the cue list as tabs." },
-        { "type": "fixed", "text": "The docked Master Transport shows beside the cue list. A long cue name could leave it no room." },
-        { "type": "fixed", "text": "License keys pasted with extra spaces or other dash characters are accepted." },
-        { "type": "fixed", "text": "Mac: shows open in the downloaded app, and Quit finishes the first time." }
+        {
+          "type": "new",
+          "text": "The license agreement is shown the first time SFX 7 opens (and on the Windows installer's license page), and any time in File > License Agreement."
+        },
+        {
+          "type": "improved",
+          "text": "Quitting asks whether to save the show first, then whether to stop the show engine."
+        },
+        {
+          "type": "improved",
+          "text": "The main window opens on most of the screen the first time and remembers where it was. In a narrow window, the side panels move under the cue list as tabs."
+        },
+        {
+          "type": "fixed",
+          "text": "The docked Master Transport shows beside the cue list. A long cue name could leave it no room."
+        },
+        {
+          "type": "fixed",
+          "text": "License keys pasted with extra spaces or other dash characters are accepted."
+        },
+        {
+          "type": "fixed",
+          "text": "Mac: shows open in the downloaded app, and Quit finishes the first time."
+        }
       ]
     },
     {
@@ -30,12 +107,30 @@
       "date": "2026-10-30",
       "summary": "The first release of SFX 7: sound, video and show control for theatre and live events, on Windows and Mac.",
       "changes": [
-        { "type": "new", "text": "One cue list, one GO: sound, video and show-control cues with waits, autofollows, fades and the Master Transport." },
-        { "type": "new", "text": "Design mode to build the show and Play mode to run it." },
-        { "type": "new", "text": "Patch your sound card's outputs into busses, with a matrix, and play live inputs in Live Audio cues." },
-        { "type": "new", "text": "Fire cues from a lighting desk, show controller or button box with OSC, MIDI and MIDI Show Control." },
-        { "type": "new", "text": "Panels can be docked or opened in their own windows, on Windows and Mac (Apple silicon and Intel)." },
-        { "type": "new", "text": "Free 7-day trial, weekly rental or purchase. Activation needs the internet once, then SFX 7 runs offline." }
+        {
+          "type": "new",
+          "text": "One cue list, one GO: sound, video and show-control cues with waits, autofollows, fades and the Master Transport."
+        },
+        {
+          "type": "new",
+          "text": "Design mode to build the show and Play mode to run it."
+        },
+        {
+          "type": "new",
+          "text": "Patch your sound card's outputs into busses, with a matrix, and play live inputs in Live Audio cues."
+        },
+        {
+          "type": "new",
+          "text": "Fire cues from a lighting desk, show controller or button box with OSC, MIDI and MIDI Show Control."
+        },
+        {
+          "type": "new",
+          "text": "Panels can be docked or opened in their own windows, on Windows and Mac (Apple silicon and Intel)."
+        },
+        {
+          "type": "new",
+          "text": "Free 7-day trial, weekly rental or purchase. Activation needs the internet once, then SFX 7 runs offline."
+        }
       ]
     }
   ]
