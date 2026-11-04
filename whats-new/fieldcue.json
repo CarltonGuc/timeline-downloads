@@ -1,0 +1,22 @@
+{
+  "product": "FieldCue",
+  "releases": [
+    {
+      "version": "1.1.0",
+      "date": "2026-11-02",
+      "summary": "The first release of FieldCue: live audio-following cue control for marching band and other live music, on Windows and Mac.",
+      "changes": [
+        { "type": "new", "text": "Follows the band: listens to the field mics, follows the music against your reference recording through tempo drift, held chords and rehearsal restarts, and fires cues at the right moment." },
+        { "type": "new", "text": "Built for the X32 / M32: mutes, fader levels, DCAs, buses, mute groups, scenes and snippets over OSC, with a connection check." },
+        { "type": "new", "text": "Any other console or device: Generic OSC outputs and the + OSC cue action send any OSC address with number or text values. Raw MIDI is there too." },
+        { "type": "new", "text": "Cue editor: waveform timeline, markers, beat grid with snap, drag-and-nudge cues, rehearse output and undo. Replace & move cues moves everything onto a new recording." },
+        { "type": "new", "text": "Live: GO, BACK, HOLD and Pause, click a marker to re-sync, PANIC with a safe-state cue, dry runs, and test runs from a recording." },
+        { "type": "new", "text": "Review: every run is logged, with a chart, playback and an accuracy check of each cue." },
+        { "type": "new", "text": "SFX 7's look and top line: File menu, Show, Review and Settings, with Click for Play Mode." },
+        { "type": "new", "text": "Auto-save every minute, crash recovery, File > Export Show Package, and a sample show with a quick start guide." },
+        { "type": "new", "text": "Windows 10 or 11, and Mac (Apple silicon and Intel) with macOS 12 Monterey or later." },
+        { "type": "new", "text": "Free trial, weekly rental or purchase. Activation needs the internet once, then FieldCue runs offline." }
+      ]
+    }
+  ]
+}
