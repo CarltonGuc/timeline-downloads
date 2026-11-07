@@ -2,6 +2,37 @@
   "product": "SFX 7",
   "releases": [
     {
+      "version": "7.0.5",
+      "date": "2026-11-06",
+      "summary": "The cue list scrolls while you drag, always shows its scroll bar and keeps the active cue in view, and fixes for Mac crashes on dropdowns and text boxes.",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Dragging an effect, a file or a cue near the top or bottom of the cue list scrolls the list."
+        },
+        {
+          "type": "improved",
+          "text": "The cue list's scroll bar is always shown: click above or below the thumb to move a page, or drag the thumb."
+        },
+        {
+          "type": "improved",
+          "text": "The standby cue and the selected cue are scrolled into view when they change, so the arrow keys, Prev/Next and GO always keep them on screen."
+        },
+        {
+          "type": "improved",
+          "text": "A cue dragged to a new place in the list is selected when it's dropped."
+        },
+        {
+          "type": "fixed",
+          "text": "Mac: clicking a dropdown (the Patch page's sound card or buffer, a Command effect's command, and others) closed SFX 7. Dropdowns now open as a Mac menu."
+        },
+        {
+          "type": "fixed",
+          "text": "Mac: SFX 7 could close when a cue's details refreshed while the cursor was in one of its text boxes."
+        }
+      ]
+    },
+    {
       "version": "7.0.4",
       "date": "2026-11-04",
       "summary": "Drop effects and files below End of List, Fades and Stops that find their cue, and fixes for dragging from the Finder and for starting the engine.",
