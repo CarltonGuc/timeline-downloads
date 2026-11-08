@@ -2,6 +2,49 @@
   "product": "SFX 7",
   "releases": [
     {
+      "version": "7.0.6",
+      "date": "2026-11-07",
+      "summary": "Space out a repeated sound with a Tail, an SFX 6-style bus grid on the Patch page, a collapsible Inspector, and windows that open on screen.",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Time tab: a Tail column for the whole cue and for each loop: seconds of silence after each pass, so a chime played several times can be spaced out."
+        },
+        {
+          "type": "new",
+          "text": "Patch page: one grid of busses (name, Gain and Group) against the sound card's outputs, as in SFX 6. Add, delete and move busses; a bus keeps its patch when it moves."
+        },
+        {
+          "type": "new",
+          "text": "Name the sound card's outputs (FOH L, Sub…) on each computer, and choose in Preferences the group new cues play on."
+        },
+        {
+          "type": "new",
+          "text": "Windows ▸ Inspector ▸ Collapsed: the Inspector shrinks to its title bar; click it to open it to fit what's in it. Preferences can have GO close it again."
+        },
+        {
+          "type": "improved",
+          "text": "A sound cue's busses are set in its matrix (Levels); the Inspector no longer asks for an Output."
+        },
+        {
+          "type": "improved",
+          "text": "Scrubbing a playing cue in the Master Transport keeps the levels of Fades below it that have already run."
+        },
+        {
+          "type": "improved",
+          "text": "The cue list's transport buttons light up as they're pressed."
+        },
+        {
+          "type": "improved",
+          "text": "Wait and Autofollow effects no longer have a Triggers tab: they link the effects around them."
+        },
+        {
+          "type": "fixed",
+          "text": "Windows: with screens at different scales, windows could open partly off the screen, or draw their contents too large until resized. They now open where they were left, on a screen, and maximized windows come back maximized."
+        }
+      ]
+    },
+    {
       "version": "7.0.5",
       "date": "2026-11-06",
       "summary": "The cue list scrolls while you drag, always shows its scroll bar and keeps the active cue in view, and fixes for Mac crashes on dropdowns and text boxes.",
