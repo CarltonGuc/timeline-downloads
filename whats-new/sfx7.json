@@ -2,6 +2,41 @@
   "product": "SFX 7",
   "releases": [
     {
+      "version": "7.0.7",
+      "date": "2026-11-08",
+      "summary": "Cue list fixes: the step box keeps its cue selected, Paste goes above the selection, and what's typed in the Inspector shows in the list as it's typed.",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Paste puts the copies above the selected cue (with End of List selected, at the end)."
+        },
+        {
+          "type": "improved",
+          "text": "After a Delete, the cue above the one deleted is selected."
+        },
+        {
+          "type": "improved",
+          "text": "What's typed in the Inspector's Number, Name, Page, Department and Notes shows in the cue list as it's typed. It's stored (one undo) on Enter, Tab or leaving the box."
+        },
+        {
+          "type": "improved",
+          "text": "Clicking a cue in the list after typing in the Inspector gives the keys back to the list."
+        },
+        {
+          "type": "fixed",
+          "text": "Opening or closing a step with its box could select a different cue. The step's own cue is now selected."
+        },
+        {
+          "type": "fixed",
+          "text": "Typing in the Inspector and then clicking another cue could lose what was typed. It's now stored on the cue it was typed for."
+        },
+        {
+          "type": "fixed",
+          "text": "Windows: dragging the cue list's scroll bar stopped when the pointer moved off the bar. The drag now follows the pointer until the button comes up."
+        }
+      ]
+    },
+    {
       "version": "7.0.6",
       "date": "2026-11-07",
       "summary": "Space out a repeated sound with a Tail, an SFX 6-style bus grid on the Patch page, a collapsible Inspector, and windows that open on screen.",
