@@ -2,6 +2,54 @@
   "product": "SFX 7",
   "releases": [
     {
+      "version": "7.0.8",
+      "build": 9,
+      "date": "2026-11-08",
+      "summary": "Build 9. A level fader in the Master Transport, a Level column in the Active Matrix, cue numbers that fit between their neighbours, Import Show Package, and Load last used show.",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Master Transport: a level fader at the right of each sound cue. In Design mode it changes the cue's level (or, with a Fade of it above the selected cue, that Fade's), heard as it moves. In Play mode it rides a playing cue's level: heard, not saved, and the next GO plays at the show's level."
+        },
+        {
+          "type": "new",
+          "text": "Active Matrix: a Level column (the cue's master level) before the busses, tried live and kept with Update or a new Fade. With All effects ticked (now the default) it shows every sound cue in the list, not just those above the selected cue."
+        },
+        {
+          "type": "new",
+          "text": "File ▸ Import Show Package…: choose a package, then where to save the show. It's copied there with its media and opens from there, so it's in Recent Shows."
+        },
+        {
+          "type": "new",
+          "text": "Preferences ▸ Saving ▸ Load last used show: SFX opens the top show in Recent Shows when it starts."
+        },
+        {
+          "type": "new",
+          "text": "A box in the cue list's header opens or closes every step in the list. Play mode closes them all."
+        },
+        {
+          "type": "improved",
+          "text": "A cue added or pasted between two numbered cues gets a number between them: between 10 and 20, 11; between 10 and 11, 10.5."
+        },
+        {
+          "type": "improved",
+          "text": "The GO button looks pressed while it's held, and fires only if it's let go on the button: slide off to cancel."
+        },
+        {
+          "type": "improved",
+          "text": "Opening or closing a step leaves the selection and the list where they were. Closing a step with the standby inside moves the standby to the step's first cue."
+        },
+        {
+          "type": "fixed",
+          "text": "New or Open right after starting SFX no longer asks to discard unsaved changes when nothing was changed."
+        },
+        {
+          "type": "fixed",
+          "text": "Windows: opening a group's Returns on the Patch page could close SFX 7."
+        }
+      ]
+    },
+    {
       "version": "7.0.7",
       "date": "2026-11-08",
       "summary": "Cue list fixes: the step box keeps its cue selected, Paste goes above the selection, and what's typed in the Inspector shows in the list as it's typed.",
