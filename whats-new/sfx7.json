@@ -2,6 +2,26 @@
   "product": "SFX 7",
   "releases": [
     {
+      "version": "7.0.9",
+      "build": 10,
+      "date": "2026-11-09",
+      "summary": "Build 10. Mac fixes: the Patch page's bus grid, Control-click on dropdowns, and the Patch page's labels.",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Mac: the Patch page's dropdowns (Audio device, Buffer, Input, MIDI port) have their labels above them, as on Windows."
+        },
+        {
+          "type": "fixed",
+          "text": "Mac: after choosing another sound card, the Patch page's bus grid could be empty. It now always shows its busses and the card's outputs."
+        },
+        {
+          "type": "fixed",
+          "text": "Mac: a Control-click or right-click on a dropdown closed SFX 7 (on macOS 27 the Dock then showed it \"Running in Background\": the show engine, still running). It now opens the dropdown's menu."
+        }
+      ]
+    },
+    {
       "version": "7.0.8",
       "build": 9,
       "date": "2026-11-08",
