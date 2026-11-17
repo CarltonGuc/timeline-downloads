@@ -2,6 +2,34 @@
   "product": "SFX 7",
   "releases": [
     {
+      "version": "7.0.11",
+      "build": 12,
+      "date": "2026-11-17",
+      "summary": "Build 12. Join a Show remembers the join code, and the show computer can make a new code that disconnects everyone, or disconnect one person.",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Network ▸ Join a Show: the join code is remembered for each show computer, in SFX 7 and SFX 7 Remote. You enter it the first time, then Join connects without asking. Saved shows lists them with Join and Forget, and Find shows on the network marks the ones whose code is saved."
+        },
+        {
+          "type": "new",
+          "text": "If you were joined to a show when SFX 7 closed, it asks at launch whether to join again. It never rejoins on its own."
+        },
+        {
+          "type": "new",
+          "text": "On the show computer, New join code asks first, then disconnects everyone joined from another computer or tablet. They're asked for the new code, which replaces the saved one."
+        },
+        {
+          "type": "new",
+          "text": "On the show computer, Disconnect next to a person joined from elsewhere drops them, with the choice to join again. Make a new join code to keep them out."
+        },
+        {
+          "type": "improved",
+          "text": "Joining tells a wrong join code apart from a show computer that can't be reached. Both computers need 7.0.11 for codes to follow a show computer to a new address, and for New join code to disconnect people."
+        }
+      ]
+    },
+    {
       "version": "7.0.10",
       "build": 11,
       "date": "2026-11-17",
