@@ -2,6 +2,26 @@
   "product": "SFX 7",
   "releases": [
     {
+      "version": "7.0.10",
+      "build": 11,
+      "date": "2026-11-17",
+      "summary": "Build 11. MIDI triggers that fire once per button press, file actions in the Save and Open window (starting in Documents\\SFX7), and OSC ping and version for control desks.",
+      "changes": [
+        {
+          "type": "new",
+          "text": "Remote ▸ MIDI triggers: a Value setting for notes and controllers, as SFX 6's data value. Not zero (the default) fires on a desk button's press and not its release, so one press of an X32 button is one GO. Exactly fires on one value; Any fires on every value (a fader). Learn sets a button up as GO on its press, and a fader as Level."
+        },
+        {
+          "type": "new",
+          "text": "Save, Save As and Open start in Documents\\SFX7 (on the Mac, Documents/SFX7), listed under Places as SFX7 Shows. New Folder, Rename, Duplicate, Delete (to the Recycle Bin or Trash) and Show in Explorer or Finder are there as buttons, and on a right-click of a folder or show. The open show can't be renamed or deleted."
+        },
+        {
+          "type": "new",
+          "text": "OSC: SFX 7's commands are now /sfx7/… (/sfx26/… still works). /sfx7/ping answers /sfx7/pong, and /sfx7/version answers with the version, build and show name, so a desk such as TheatreMix can check it's connected."
+        }
+      ]
+    },
+    {
       "version": "7.0.9",
       "build": 10,
       "date": "2026-11-09",
