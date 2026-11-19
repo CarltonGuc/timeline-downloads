@@ -2,6 +2,46 @@
   "product": "SFX 7",
   "releases": [
     {
+      "version": "7.0.12",
+      "build": 13,
+      "date": "2026-11-19",
+      "summary": "Build 13. The cue list works as SFX 6's: the Standby dot, green and orange rows, the type after #, and double-click to edit a cell. Also: stacked cues keep their timecode, untitled shows take the file's name, and remote Next and Previous stop at the ends.",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Cue list, as SFX 6: a click on a cue's Standby dot (left of #) puts it on standby, and the selection stays where it is. A click anywhere else on a row selects it. In Play mode, a click anywhere on a row puts it on standby, selected."
+        },
+        {
+          "type": "improved",
+          "text": "Cue list: the standby row is green and the selected rows orange, as in SFX 6. The type icon comes right after #."
+        },
+        {
+          "type": "improved",
+          "text": "Cue list: double-click a cue's name, page, time (Fade and Wait) or timecode to edit it there, as in SFX 6. A single click on them just selects the cue."
+        },
+        {
+          "type": "improved",
+          "text": "Closing a cue stack (its ⊟ box) selects the stack's first cue."
+        },
+        {
+          "type": "improved",
+          "text": "Timecode: only a stack's top cue fires at its timecode. A cue in a stack (started by a Wait or Autofollow above it) keeps its timecode, hidden in the list and ignored, so a Wait put in the wrong place doesn't lose it. The inspector says why."
+        },
+        {
+          "type": "improved",
+          "text": "Saving a show still called Untitled Show names it after the file: MyFirstShow becomes \"My First Show\"."
+        },
+        {
+          "type": "fixed",
+          "text": "Remote Next and Previous (OSC, MIDI and MSC) no longer wrap around the list: Next stops at End of List and Previous at the first cue."
+        },
+        {
+          "type": "improved",
+          "text": "Patch ▸ Identify displays shows each display's number for 3 seconds instead of 5."
+        }
+      ]
+    },
+    {
       "version": "7.0.11",
       "build": 12,
       "date": "2026-11-17",
