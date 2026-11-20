@@ -2,6 +2,22 @@
   "product": "SFX 7",
   "releases": [
     {
+      "version": "7.0.13",
+      "build": 14,
+      "date": "2026-11-20",
+      "summary": "Build 14. Opening a cue stack selects its first cue, as closing one does, and the cue list stays where it is as a stack opens or closes.",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Opening a cue stack (its ⊞ box) selects the stack's first cue, as closing it does."
+        },
+        {
+          "type": "fixed",
+          "text": "Opening or closing a cue stack no longer scrolls the cue list: the cue you clicked stays where it is, and the stack's rows appear or go below it."
+        }
+      ]
+    },
+    {
       "version": "7.0.12",
       "build": 13,
       "date": "2026-11-19",
