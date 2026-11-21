@@ -2,6 +2,18 @@
   "product": "SFX 7",
   "releases": [
     {
+      "version": "7.1.0",
+      "build": 15,
+      "date": "2026-11-21",
+      "summary": "Build 15. The first official release of SFX 7.",
+      "changes": [
+        {
+          "type": "new",
+          "text": "SFX 7 is released: the TEST VERSION label, the warning at launch and the 31 December 2026 end date are gone. Activate your license key under File > License, or start the 7-day trial."
+        }
+      ]
+    },
+    {
       "version": "7.0.13",
       "build": 14,
       "date": "2026-11-20",
