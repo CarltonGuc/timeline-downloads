@@ -2,6 +2,30 @@
   "product": "SFX 7",
   "releases": [
     {
+      "version": "7.1.1",
+      "build": 16,
+      "date": "2026-11-26",
+      "summary": "Build 16. Undocked windows stay in front of the main window, scroll bars are always shown, and the mouse wheel stays with the value you're editing. On a Mac, SFX no longer crashes at launch after quitting with a panel undocked.",
+      "changes": [
+        {
+          "type": "improved",
+          "text": "Undocked windows (the Inspector and other panels, the Active Matrix, timecode settings) stay in front of the main window: clicking the main window no longer hides them behind it. They minimize and restore with it."
+        },
+        {
+          "type": "improved",
+          "text": "Scroll bars are always shown, as in the cue list: in the Inspector, Active Matrix, Master transport, Effect list, Patch, Preferences and the cue sheet."
+        },
+        {
+          "type": "improved",
+          "text": "While you're editing a time or level box, or have matrix cross points selected, the mouse wheel keeps adjusting the value even when the pointer drifts off the control, until you click elsewhere or finish the edit."
+        },
+        {
+          "type": "fixed",
+          "text": "Mac: SFX no longer crashes at launch after quitting with a panel undocked."
+        }
+      ]
+    },
+    {
       "version": "7.1.0",
       "build": 15,
       "date": "2026-11-21",
